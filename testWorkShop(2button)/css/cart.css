@@ -1,0 +1,96 @@
+.box {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.box__link a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.box__link a:hover {
+    margin-bottom: 20px;
+    color: #706c61;
+    text-decoration: none;
+}
+
+#my-cart {
+    margin-top: 20px;
+}
+
+.box-good {
+    /* margin-bottom: 20px; */
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-bottom: 1px solid #e1f4f3;
+}
+
+.delete {
+    margin-right: 15px;
+    padding: 10px 15px;
+
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background: #c45e62;
+    cursor: pointer;
+    outline: none;
+    transition: background .2s linear;
+}
+
+.delete:hover {
+    background: #613233;
+}
+
+#my-cart img {
+    margin-right: 15px;
+}
+
+.box-good span {
+    margin-right: 15px;
+    width: 180px;
+}
+
+.minus {
+    margin-right: 15px;
+    padding: 10px 15px;
+
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background: #706c61;
+    cursor: pointer;
+    outline: none;
+    transition: background .2s linear;
+}
+
+.minus:hover {
+    background: #333333;
+}
+
+.plus {
+    margin: 0 15px;
+    padding: 10px 15px;
+
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background: #706c61;
+    cursor: pointer;
+    outline: none;
+    transition: background .2s linear;
+}
+
+.plus:hover {
+    background: #333333;
+}
